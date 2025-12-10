@@ -18,7 +18,7 @@
 -endif.
 
 all() -> [{group,info}, proc_count, proc_window, bin_leak,
-          node_stats_list, get_state, source, tcp, udp, files, port_types,
+          node_stats_list, get_state, source, tcp, udp, port_types,
           inet_count, inet_window, binary_memory, scheduler_usage].
 
 groups() -> [{info, [], [info3, info4, info1, info2, info_dead,
